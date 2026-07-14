@@ -1,6 +1,10 @@
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;700;800&display=swap');
 
+html {
+    background: #000;
+}
+
 /* Reset */
 
 *{
@@ -983,8 +987,10 @@ footer{
     align-items: center;
     z-index: 9999;
 
-    animation: loaderFade 1s ease forwards;
-    animation-delay: 3s;
+will-change: opacity;
+
+    animation: loaderFade 1.2s ease forwards;
+    animation-delay: 2.8s;
 }
 
 
@@ -996,6 +1002,7 @@ footer{
     transform: translateY(20px);
 
     animation: textReveal 1s ease forwards;
+        animation-delay: .4s;
 }
 
 
@@ -1009,7 +1016,7 @@ footer{
     transform: translateY(20px);
 
     animation: textReveal 1s ease forwards;
-    animation-delay: .3s;
+    animation-delay: .8s;
 }
 
 
